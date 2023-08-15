@@ -1,4 +1,3 @@
-import keyConceptsImage from "./assets/images/key-concepts.png";
 import componentsImage from "./assets/images/components.png";
 import stateImage from "./assets/images/state.png";
 import eventsImage from "./assets/images/events.png";
@@ -28,7 +27,7 @@ const concepts = [
 function App() {
   return (
     <div>
-      <Header image={keyConceptsImage}></Header>
+      <Header></Header>
       <ul id="concepts">
         <ConceptItem 
         image = {concepts[0].image}
